@@ -25,6 +25,8 @@ var swiper = new Swiper('.product-slider', {
 
     });
 
+<input type="button" onclick="location.href='http://google.com';" value="Go to Google" />
+        
     swiper.on('slideChange', function () {
         var index = this.activeIndex;
 
