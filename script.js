@@ -1,5 +1,6 @@
 var swiper = new Swiper('.product-slider', {
         spaceBetween: 30,
+        onclick="location.href='http://google.com';",
         effect: 'fade',
         // initialSlide: 2,
         loop: false,
