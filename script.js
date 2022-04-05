@@ -24,7 +24,7 @@ var swiper = new Swiper('.product-slider', {
         }
 
     });
-        
+
     swiper.on('slideChange', function () {
         var index = this.activeIndex;
 
